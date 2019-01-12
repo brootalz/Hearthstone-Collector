@@ -1,0 +1,62 @@
+html,
+body {
+	background-color: #000;
+	margin: 0px;
+	padding: 0px;
+}
+
+input[type="button"] {
+	cursor: pointer;
+}
+
+input[type="button"].current {
+	cursor: default;
+}
+
+#menu,
+#paginator {
+	width: 100%;
+	background-color: #888;
+}
+
+#menu ul,
+#display ul, 
+#paginator ul {
+	margin: auto;
+	text-align: center;
+}
+
+#menuClasses li,
+#paginatorButtons li {
+	display: inline-block;
+}
+
+#menuClasses li input,
+#paginatorButtons li input {
+	background-color: #333;
+	color: #fff;
+	font-style: bold;
+}
+
+#menuClasses li input:hover,
+#paginatorButtons li input:hover {
+	background-color: #f00;
+	color: #fff;
+	font-style: bold;
+}
+
+#menuClasses li input.current,
+#paginatorButtons li input.current {
+	background-color: #fff;
+	color: #000;
+}
+
+#output li {
+	display: inline-block;
+	width: 150px;
+}
+
+#output li img {
+	max-height: 100%;
+	max-width: 100%;
+}
